@@ -7,7 +7,9 @@ public class ToyQueue {
         this.toyQueue = new PriorityQueue<>();
     }
 
-    
+    public void addToy(Toy toy) {
+        toyQueue.add(toy);
+    }
 
     
 
