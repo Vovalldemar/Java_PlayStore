@@ -7,16 +7,20 @@ public class ToyQueue {
         this.toyQueue = new PriorityQueue<>();
     }
 
+   
     public void addToy(Toy toy) {
         toyQueue.add(toy);
     }
+   
     public Toy getNextToy() {
-        return toyQueue.poll(); 
-    
+        return toyQueue.poll();
+    }
 
-    
+    public boolean isEmpty() {
+        return toyQueue.isEmpty();
+    }
 
-    
-
-    
+    public void printQueue() {
+        toyQueue.forEach(System.out::println);
+    }
 }
