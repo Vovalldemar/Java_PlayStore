@@ -23,7 +23,7 @@ public class Toy implements Comparable<Toy> {
 
     @Override
     public int compareTo(Toy other) {
-        return Integer.compare(other.weight, this.weight); // приоритет
+        return Integer.compare(other.weight, this.weight); // приоритет веса
     }
 
     @Override
