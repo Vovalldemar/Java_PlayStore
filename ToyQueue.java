@@ -10,6 +10,9 @@ public class ToyQueue {
     public void addToy(Toy toy) {
         toyQueue.add(toy);
     }
+    public Toy getNextToy() {
+        return toyQueue.poll(); 
+    
 
     
 
